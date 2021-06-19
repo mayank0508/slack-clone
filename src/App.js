@@ -1,13 +1,13 @@
+import React from 'react';
 import './App.css';
+import Header from './Header/Header.js';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <h1>HI BABY 🥶</h1>
       {/* Header */}
-      <div className="header">
-        
-      </div>
+      <Header />
       {/* Sidebar */}
       {/* React Router -> for code */}
     </div>
