@@ -1,6 +1,6 @@
 export const initialState = {
   // this is termed as the intial stage of the transition
-  user: null 
+  user: null
 };
 
 export const actionTypes = {
