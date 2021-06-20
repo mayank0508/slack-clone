@@ -1,4 +1,10 @@
 body {
-  --slack-color: #3f0f40
+  --slack-color: #3f0f40;
+  overflow: hidden;
+  margin-top: auto;
 }
 
+.app__body {
+  display: flex;
+  height: 100vh;
+}

@@ -3,7 +3,7 @@
     align-items: center;
     padding-left: 2px;
     font-size: 12px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .sidebarOption:hover {
@@ -17,7 +17,7 @@
 }
 
 .sidebarOption__channel {
-    padding: 10px 0;
+    padding: 1px;
 }
 
 .sidebarOption__hash {
