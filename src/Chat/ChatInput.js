@@ -9,7 +9,7 @@ function ChatInput({ channelName, channelId }) {
     const [input, setInput] = useState('');
     const [{ user }] = useStateValue();
 
-  const sendMessage = e => {
+  const sendMessage = (e) => {
     e.preventDefault();
 
     if (channelId) {
@@ -17,7 +17,7 @@ function ChatInput({ channelName, channelId }) {
         message: input,
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),  // this place i can have error plz check the code here
         user: user.displayName,
-        userImage: user.photoURL,
+        userimage: user.photoURL,
         });
     }
   };

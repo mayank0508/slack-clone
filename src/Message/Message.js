@@ -1,10 +1,10 @@
 import React from 'react';
 import './Message.css';
 
-function Message({ message, timestamp, user, userImage }) {
+function Message({ message, timestamp, user, userimage }) {
   return (
     <div className="message">
-      <img src={userImage} alt="/" />
+      <img src={userimage} alt="/" />
       <div className="message__info">
         <h4>
           {user} <span className="message__timestamp">
