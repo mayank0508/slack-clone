@@ -22,8 +22,6 @@ function ChatInput({ channelName, channelId }) {
     }
   };
 
-    
-
   return (
     <div className="chatInput">
       <form>
